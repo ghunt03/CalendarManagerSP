@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "calendar-mgr-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/calendarMgr/CalendarMgrWebPart.js",
+          "manifest": "./src/webparts/calendarMgr/CalendarMgrWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CalendarMgrWebPartStrings": "lib/webparts/calendarMgr/loc/{locale}.js"
+  }
+}

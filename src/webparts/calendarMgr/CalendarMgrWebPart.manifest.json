@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "825201e1-2165-49bd-89cb-8ec2207a3caf",
+  "alias": "CalendarMgrWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+
+  
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "CalendarMgr" },
+    "description": { "default": "CalendarMgr description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "CalendarMgr"
+    }
+  }]
+}
